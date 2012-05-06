@@ -1,0 +1,33 @@
+﻿.hyoumodoki 
+{
+    
+width:25em;
+text-align:center;
+margin-top:20px;
+margin-bottom:20px;
+margin-left:100px;
+
+}
+.hyoumodoki br{clear:both;}
+
+div.t1{display:block;
+float:left;
+margin:0 0 1px 1px;
+padding:4px;
+width:5em;
+border:1px solid #666;
+}
+div.t2{display:block;
+float:left;
+margin:0 0 1px 1px;
+padding:4px;
+width:10em;
+border:1px solid #666;
+}
+div.t3{display:block;
+float:left;
+margin:0 0 1px 1px;
+padding:4px;
+width:7em;
+border:1px solid #666;
+}
