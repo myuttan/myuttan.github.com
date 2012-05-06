@@ -1,0 +1,11 @@
+﻿    p {font-family:HG行書体;}
+    p.title { font-size:xx-large;}
+    p.description { font-size:xx-small;}
+    a.title { font-size:xx-large; font-family:HG行書体; color:red;}
+    .title { font-weight:bold;}
+    h1#optical-properties {color:green;}
+    table#table1 thead { background-color:red;}
+    table#table2 thead { background-color:blue;}
+    table#table2 td {background-color:yellow;}
+    tbody { color:Gray;}
+    tfoot { color:green;}
