@@ -5,6 +5,15 @@
  <title>html5最小テンプレート</title>
 
 <link rel="stylesheet" href="style.css" type="text/css">
+<link rel="stylesheet" href="div.css" type="text/css">
+
+		<link type="text/css" href="jquery-ui-1.8.20.custom/css/custom-theme/jquery-ui-1.8.20.custom.css" rel="stylesheet" />
+		<script type="text/javascript" src="jquery-ui-1.8.20.custom/js/jquery-1.7.2.min.js"></script>
+		<script type="text/javascript" src="jquery-ui-1.8.20.custom/js/jquery-ui-1.8.20.custom.min.js"></script>
+
+
+
+
 
  </head>
 
@@ -21,6 +30,12 @@
  <h2>html5最低限テンプレート</h2>
 
  <p class="title">テンプレートについて </p> 
+
+
+ 		<!-- Datepicker -->
+		<h2 class="demoHeaders">Datepicker</h2>
+		<div id="datepicker"></div>
+
 
  <table border="3" cellspacing="2" cellpadding="8" id="table1">
  <caption>果物</caption>
@@ -97,6 +112,17 @@
  </table>
 
 
+ 
+
+<div class="hyoumodoki">
+<div class="t1">aaa</div><div class="t2">a1</div><div class="t3">a2</div>
+<div class="t1">bbb</div><div class="t2">b1</div><div class="t3">b2</div>
+<div class="t1">ccc</div><div class="t2">c1</div><div class="t3">c2</div>
+
+</div>
+
+<div style="clear:both;">
+ </div>
 
  <p class="description">html5の最低限テンプレートになります。</p>
  <h1 id="optical-properties">Cascading Style Sheets</h1>
@@ -105,5 +131,16 @@
  <footer>
  <a href="./" class="title">html5最小テンプレート</a>
  </footer>
+
+ <p style="color:Blue">by yoshiki</p> 
+
+
+ <script>
+     // Datepicker
+     $('#datepicker').datepicker({
+         inline: true
+     });
+
+ </script>
  </body>
  </html>
