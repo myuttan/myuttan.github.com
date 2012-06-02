@@ -294,3 +294,5 @@ intersphinx_mapping = {'http://docs.python.org/': None}
 extensions.append( "sphinxtogithub"  )
 sphinx_to_githu = True
 sphinx_to_github_verbose = True
+#
+todo_include_todos=True

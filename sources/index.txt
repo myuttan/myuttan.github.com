@@ -23,6 +23,11 @@
 
 古いトップページは `こちら </old.html>`_ 
 
+TODO
+======
+
+.. todolist::
+
 Indices and tables
 ==================
 
