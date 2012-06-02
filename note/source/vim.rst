@@ -14,7 +14,7 @@ vimエディタ
 
 
 .. list-table:: ノーマルモード
-   :header-rows: 2
+   :header-rows: 1
 
    * - 保存＆終了
      - コピー＆ペースト

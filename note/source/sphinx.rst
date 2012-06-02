@@ -23,7 +23,7 @@ Sphinxプロジェクトディレクトリに移動する
 ..  code-block:: bash
 
     $ cdvirtualenv
-    $ cd src/note/
+    $ cd src/myuttan.github.com/note/
 
 
 ソースコードを変更する
