@@ -57,32 +57,58 @@
 <h1>vimエディタ<a class="headerlink" href="#vim" title="Permalink to this headline">¶</a></h1>
 <div class="section" id="id1">
 <h2>基本操作<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h2>
-<div class="section" id="id2">
-<h3>モード切替<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h3>
-<p>i 挿入モード
-: コマンドラインモード
-esc ノーマルモード</p>
-</div>
-<div class="section" id="id3">
-<h3>ノーマルモード<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h3>
-<p>:w 保存(:w!で強制保存)
-:q 終了(:q!で破棄して保存)
-:f ファイル名を変更して編集を続ける</p>
-<p>dd 行をカット
-yy 行をコピー
-P 貼り付け(カレント行)
-p 貼り付け(ペースト)</p>
-<p>u 取り消し
-U 行に対して行った変更の全てを取り消す</p>
-<p>v 選択開始
-V 行選択</p>
-</div>
-<div class="section" id="id4">
-<h3>移動<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h3>
-<p>gg 最初の行
-G 最後の行
-0 行の最初(インデント無視)</p>
-</div>
+<table border="1" class="docutils">
+<caption>モード切替</caption>
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>i 挿入モード</td>
+<td>:  コマンドラインモード</td>
+<td>esc ノーマルモード</td>
+</tr>
+</tbody>
+</table>
+<table border="1" class="docutils">
+<caption>ノーマルモード</caption>
+<colgroup>
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+<col width="25%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">保存＆終了</th>
+<th class="head">コピー＆ペースト</th>
+<th class="head">取り消し＆削除</th>
+<th class="head">選択</th>
+</tr>
+<tr class="row-even"><th class="head">:w 保存(:w!で強制保存)</th>
+<th class="head">dd 行をカット</th>
+<th class="head">u 取り消し</th>
+<th class="head">v 選択開始</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-odd"><td>:q 終了(:q!で破棄して保存)</td>
+<td>yy 行をコピー</td>
+<td>U 行に対して行った変更の全てを取り消す</td>
+<td>V 行選択</td>
+</tr>
+<tr class="row-even"><td>:f ファイル名を変更して編集を続ける</td>
+<td>P ペースト(カレント行)</td>
+<td>x 1文字を削除</td>
+<td>gv 直前の選択範囲を再選択</td>
+</tr>
+<tr class="row-odd"><td>:e ファイルを開く。</td>
+<td>p ペースト(カーソルの下)</td>
+<td>D カーソル位置から行末まで削除</td>
+<td>C-v 短形選択</td>
+</tr>
+</tbody>
+</table>
 </div>
 </div>
 
