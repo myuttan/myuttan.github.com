@@ -8,7 +8,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     
-    <title>vimエディタ &mdash; みゅったんノート 1 documentation</title>
+    <title>sphinx &mdash; みゅったんノート 1 documentation</title>
     
     <link rel="stylesheet" href="static/agogo.css" type="text/css" />
     <link rel="stylesheet" href="static/pygments.css" type="text/css" />
@@ -26,8 +26,7 @@
     <script type="text/javascript" src="static/underscore.js"></script>
     <script type="text/javascript" src="static/doctools.js"></script>
     <link rel="top" title="みゅったんノート 1 documentation" href="index.html" />
-    <link rel="next" title="HTML" href="html.html" />
-    <link rel="prev" title="C言語" href="c.html" /> 
+    <link rel="prev" title="メモ" href="memo.html" /> 
   </head>
   <body>
     <div class="header-wrapper">
@@ -35,10 +34,8 @@
         <div class="headertitle"><a
           href="index.html">みゅったんノート 1 documentation</a></div>
         <div class="rel">
-          <a href="c.html" title="C言語"
+          <a href="memo.html" title="メモ"
              accesskey="P">previous</a> |
-          <a href="html.html" title="HTML"
-             accesskey="N">next</a> |
           <a href="genindex.html" title="General Index"
              accesskey="I">index</a>
         </div>
@@ -53,36 +50,14 @@
         <div class="bodywrapper">
           <div class="body">
             
-  <div class="section" id="vim">
-<h1>vimエディタ<a class="headerlink" href="#vim" title="Permalink to this headline">¶</a></h1>
-<div class="section" id="id1">
-<h2>基本操作<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h2>
-<div class="section" id="id2">
-<h3>モード切替<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h3>
-<p>i 挿入モード
-: コマンドラインモード
-esc ノーマルモード</p>
-</div>
-<div class="section" id="id3">
-<h3>ノーマルモード<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h3>
-<p>:w 保存(:w!で強制保存)
-:q 終了(:q!で破棄して保存)
-:f ファイル名を変更して編集を続ける</p>
-<p>dd 行をカット
-yy 行をコピー
-P 貼り付け(カレント行)
-p 貼り付け(ペースト)</p>
-<p>u 取り消し
-U 行に対して行った変更の全てを取り消す</p>
-<p>v 選択開始
-V 行選択</p>
-</div>
-<div class="section" id="id4">
-<h3>移動<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h3>
-<p>gg 最初の行
-G 最後の行
-0 行の最初(インデント無視)</p>
-</div>
+  <div class="section" id="sphinx">
+<h1>sphinx<a class="headerlink" href="#sphinx" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="html">
+<h2>html編集<a class="headerlink" href="#html" title="Permalink to this headline">¶</a></h2>
+<p>$ workon main
+$ cdvirtualenv
+$ cd src/note/
+$ vi source/○○   ← 編集したいフォルダ名</p>
 </div>
 </div>
 
@@ -95,13 +70,13 @@ G 最後の行
           <h3>Table Of Contents</h3>
           <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="c.html">C言語</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="">vimエディタ</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#id1">基本操作</a></li>
-</ul>
-</li>
+<li class="toctree-l1"><a class="reference internal" href="vim.html">vimエディタ</a></li>
 <li class="toctree-l1"><a class="reference internal" href="html.html">HTML</a></li>
 <li class="toctree-l1"><a class="reference internal" href="memo.html">メモ</a></li>
-<li class="toctree-l1"><a class="reference internal" href="sphinx.html">sphinx</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="">sphinx</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#html">html編集</a></li>
+</ul>
+</li>
 </ul>
 
           <h3 style="margin-top: 1.5em;">Search</h3>
@@ -122,14 +97,12 @@ G 最後の行
     <div class="footer-wrapper">
       <div class="footer">
         <div class="left">
-          <a href="c.html" title="C言語"
+          <a href="memo.html" title="メモ"
              >previous</a> |
-          <a href="html.html" title="HTML"
-             >next</a> |
           <a href="genindex.html" title="General Index"
              >index</a>
             <br/>
-            <a href="sources/vim.txt"
+            <a href="sources/sphinx.txt"
                rel="nofollow">Show Source</a>
         </div>
 
