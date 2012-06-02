@@ -51,13 +51,78 @@
           <div class="body">
             
   <div class="section" id="sphinx">
-<h1>sphinx<a class="headerlink" href="#sphinx" title="Permalink to this headline">¶</a></h1>
+<h1><a class="toc-backref" href="#id8">sphinx</a><a class="headerlink" href="#sphinx" title="Permalink to this headline">¶</a></h1>
+<div class="contents topic" id="sphinxgithubhtml">
+<p class="topic-title first">SphinxとGitHubでHTMLページを作る</p>
+<ul class="simple">
+<li><a class="reference internal" href="#sphinx" id="id8">sphinx</a><ul>
+<li><a class="reference internal" href="#html" id="id9">html編集</a><ul>
+<li><a class="reference internal" href="#virtualenv" id="id10">virtualenv をアクティベート</a></li>
+<li><a class="reference internal" href="#id1" id="id11">Sphinxプロジェクトディレクトリに移動する</a></li>
+<li><a class="reference internal" href="#id2" id="id12">ソースコードを変更する</a></li>
+<li><a class="reference internal" href="#id3" id="id13">ビルドする</a></li>
+<li><a class="reference internal" href="#id4" id="id14">確認</a></li>
+<li><a class="reference internal" href="#id5" id="id15">コミット＆プッシュ</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#id6" id="id16">Sphinxについて</a><ul>
+<li><a class="reference internal" href="#restructuredtext" id="id17">reStructuredText</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
 <div class="section" id="html">
-<h2>html編集<a class="headerlink" href="#html" title="Permalink to this headline">¶</a></h2>
-<p>$ workon main
-$ cdvirtualenv
-$ cd src/note/
-$ vi source/○○   ← 編集したいフォルダ名</p>
+<h2><a class="toc-backref" href="#id9">html編集</a><a class="headerlink" href="#html" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="virtualenv">
+<h3><a class="toc-backref" href="#id10">virtualenv をアクティベート</a><a class="headerlink" href="#virtualenv" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-bash"><div class="highlight"><pre><span class="nv">$ </span>workon main
+</pre></div>
+</div>
+</div>
+<div class="section" id="id1">
+<h3><a class="toc-backref" href="#id11">Sphinxプロジェクトディレクトリに移動する</a><a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-bash"><div class="highlight"><pre><span class="nv">$ </span>cdvirtualenv
+<span class="nv">$ </span><span class="nb">cd </span>src/note/
+</pre></div>
+</div>
+</div>
+<div class="section" id="id2">
+<h3><a class="toc-backref" href="#id12">ソースコードを変更する</a><a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-bash"><div class="highlight"><pre><span class="nv">$ </span>vi <span class="nb">source</span>/○○   ← 編集したいフォルダ名
+</pre></div>
+</div>
+</div>
+<div class="section" id="id3">
+<h3><a class="toc-backref" href="#id13">ビルドする</a><a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-bash"><div class="highlight"><pre><span class="nv">$ </span> make html
+</pre></div>
+</div>
+</div>
+<div class="section" id="id4">
+<h3><a class="toc-backref" href="#id14">確認</a><a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h3>
+</div>
+<div class="section" id="id5">
+<h3><a class="toc-backref" href="#id15">コミット＆プッシュ</a><a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-bash"><div class="highlight"><pre><span class="nv">$ </span>git add  file
+<span class="nv">$ </span>git commit -a -m <span class="s2">&quot;hohoge&quot;</span>
+<span class="nv">$ </span>git push
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="id6">
+<h2><a class="toc-backref" href="#id16">Sphinxについて</a><a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="restructuredtext">
+<h3><a class="toc-backref" href="#id17">reStructuredText</a><a class="headerlink" href="#restructuredtext" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><a class="reference external" href="http://sphinx.shibu.jp/rest.html">reStructuredText入門</a></li>
+<li><a class="reference external" href="http://openalea.gforge.inria.fr/doc/openalea/doc/_build/html/source/sphinx/rest_syntax.html">http://openalea.gforge.inria.fr/doc/openalea/doc/_build/html/source/sphinx/rest_syntax.html</a></li>
+<li><a class="reference external" href="http://www.planewave.org/translations/rst/quickstart.ja.html">http://www.planewave.org/translations/rst/quickstart.ja.html</a></li>
+<li><a class="reference external" href="http://hehe.s9.xrea.com/html/restructured.rst.html">http://hehe.s9.xrea.com/html/restructured.rst.html</a></li>
+</ul>
+</div>
 </div>
 </div>
 
@@ -75,6 +140,7 @@ $ vi source/○○   ← 編集したいフォルダ名</p>
 <li class="toctree-l1"><a class="reference internal" href="memo.html">メモ</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="">sphinx</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#html">html編集</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id6">Sphinxについて</a></li>
 </ul>
 </li>
 </ul>
