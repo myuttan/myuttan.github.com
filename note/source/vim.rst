@@ -22,7 +22,6 @@ vimエディタ
 
 
 .. list-table:: ノーマルモード
-   :widths: 15 10 35 40
    :header-rows: 1
 
    * - 保存＆終了
