@@ -14,6 +14,7 @@ Note
 
     c
     vim
+    Linux
     sphinx
     html
     memo
